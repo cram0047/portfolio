@@ -46,20 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+header, main, footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
 p, h1, h2,h3, h4, h5, h6, label{
     font-family: Arial, Helvetica, sans-serif
 }
 
-h1{
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
 
-h3{
-    font-size: 1rem;
-
-}
 
  /*---------------------------- FORM -----------------------------*/
  .form-name{
@@ -97,10 +95,14 @@ form{
 }
 
 
-nav{
-    display: block;
-    text-align: center;
-    margin-bottom: 3rem;
+img{
+width: 100%;
+}
+
+.contact-info{
+    position: absolute;
+    text-align: left;
+    background:rgba(255, 255, 255, 0.6);
 }
 
 
@@ -113,12 +115,36 @@ nav{
         text-align: center;
     }
     
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .contact-info{
+        position: absolute;
+        text-align: left;
+        background:rgba(255, 255, 255, 0.6);
+        
+    }
 
 
-    /* image with text overlay */
+    h1{
+        font-size: 1.35rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
 
+    h3{
+        font-size: 1.2rem;
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+    .container{
+        width: 100%;
+    }
     /* banner image */
-
 
 }
 
@@ -129,30 +155,72 @@ nav{
         text-align: left;
     }
     
+    nav ul li {
+        display: inline;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+    
+    h4{
+        font-size: 1.2rem;
+    }
+    .container{
+        width: 100%;
+    }
 
 
-    /* image with text overlay */
-
+    
     /* banner image */
 
 
 }
 
 
-@media screen and (min-width: 100px){
+@media screen and (min-width: 1000px){
     
     h3{
         text-align: left;
     }
-    
-    nav{
-        display: inline;
+    h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 1rem;
     }
     
+    h3{
+        font-size: 1.9rem;
+    }
+    
+    h4{
+        font-size: 1.7rem;
+    }
+    .container{
+        width: 100%;
+    }
+    nav ul li {
+        display: inline;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
 
-
-    /* image with text overlay */
-
+    .contact-info{
+        position: absolute;
+        text-align: left;
+        background:rgba(255, 255, 255, 0.6);
+        margin-top: 5rem;
+        margin-left: 5rem;
+        padding: 4rem;
+    }
+    
     /* banner image */
 
 

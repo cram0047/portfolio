@@ -8,60 +8,76 @@
     <title>Contact</title>
 </head>
 <body>
-    <header>
-        <nav> 
-            <ul> 
-                <li class="#"><a href="index.html"></a>Home</li>
-                <li class="#"><a href="gallery.html"></a>Gallery</li>
-                <li class="#"><a href="about.html"></a>About</li>
-                <li class="#"><a href="booking.html"></a>Booking</li>
-                <li class="current"><a href="contact.html"></a>Contact</li>
-            </ul> 
-        </nav> 
-    </header>
-
+    <div class="container">
+        <header>
+            <nav> 
+                <ul> 
+                    <li class="#"><a href="index.html"></a>Home</li>
+                    <li class="#"><a href="gallery.html"></a>Gallery</li>
+                    <li class="#"><a href="about.html"></a>About</li>
+                    <li class="#"><a href="booking.html"></a>Booking</li>
+                    <li class="current"><a href="contact.html"></a>Contact</li>
+                </ul> 
+            </nav> 
+        
+        </header>
+    </div>
     <main>
+        <div class="container">
 
-        <h1>
-            Contact
-        </h1>
+            <h1>
+                Contact
+            </h1>
 
-        <h3>
-            Contact us Here for Questions or Bookings
-        </h3>
+            <h3>
+                Contact us Here for Questions or Bookings
+            </h3>
 
-        <form class="form" action="thanks.html" method="get"> <!-- the form tag with the class-->
-            <div class="form-name">
-                <div class="for-anme-label">
-                    <label for="fullname">Your Name</label> <!--label for fullname in form-->
+            <form class="form" action="thanks.html" method="get"> <!-- the form tag with the class-->
+                <div class="form-name">
+                    <div class="for-anme-label">
+                        <label for="fullname">Your Name</label> <!--label for fullname in form-->
+                    </div>
+                    <div class="form-name-input">
+                        <input id="fullname" type="text" name="fullname"> <!--input for full name in form-->
+                    </div>
                 </div>
-                <div class="form-name-input">
-                    <input id="fullname" type="text" name="fullname"> <!--input for full name in form-->
+                <div class="form-email">
+                    <div class="form-email-label">
+                        <label for="email">Email</label><!--label for email in form-->
+                    </div>
+                    <div class="form-email-input">
+                        <input id="email" type="text" name="email"> <!--input for email in form-->
+                    </div>
                 </div>
+                <div class="form-message">
+                    <div >
+                        <label for="message">Message</label> <!--label for message in form-->
+                    </div>
+                    <div>
+                        <textarea id="message"></textarea> <!--input for message in form-->
+                    </div>
+                    <div class="">
+                        <input type="submit" value="Send"> <!--Send button-->
+                    </div>
+                </div>
+            </form>
+            <div class="contact-information">
+                <div class="contact-info">
+                    <h4>Phone Number: 613-123-4567</h4>
+                    <h4>Email: cram0047@algonquinlive.com</h4>
+                </div>
+                <img src="images/contactimage.jpg" alt="photo of goalie">
+                
+
             </div>
-            <div class="form-email">
-                <div class="form-email-label">
-                    <label for="email">Email</label><!--label for email in form-->
-                </div>
-                <div class="form-email-input">
-                    <input id="email" type="text" name="email"> <!--input for email in form-->
-                </div>
-            </div>
-            <div class="form-message">
-                <div >
-                    <label for="message">Message</label> <!--label for message in form-->
-                </div>
-                <div>
-                    <textarea id="message"></textarea> <!--input for message in form-->
-                </div>
-                <div class="">
-                    <input type="submit" value="Send"> <!--Send button-->
-                </div>
-            </div>
-        </form>
+        </div>
     </main>
     
     <footer>
+        <div class="container">
+
+        </div>
 
     </footer>
 
