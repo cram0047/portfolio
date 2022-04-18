@@ -156,7 +156,38 @@ footer{
 
 
 @media screen and (min-width: 1000px){
+    .container{
+        width: 100%;
+    }
+    nav ul li {
+        display: inline;
+        text-align: center;
+        margin: 2rem;
+    }
 
+    nav ul li a{
+        display: inline;
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+    h2{
+        font-size: 3rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    h3{
+        font-size: 1.9rem;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+    
+    h4{
+        font-size: 1.7rem;
+    }
 
 }
 
