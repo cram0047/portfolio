@@ -163,22 +163,7 @@ width: 100%;
 
     }
 
-    
-    /*------------------------- NAV DONE ---------------------------------------*/
-    h3{
-        text-align: center;
-    }
-    
-    
-    .contact-info{
-        position: absolute;
-        text-align: left;
-        background:rgba(255, 255, 255, 0.6);
-        
-    }
-
-
-    h2{
+     h2{
         font-size: 1.8rem;
         text-align: center;
         margin-bottom: 1rem;
@@ -195,6 +180,23 @@ width: 100%;
         width: 100%;
 
     }
+    
+    h3{
+        text-align: center;
+    }
+    
+    /*------------------------- NAV DONE ---------------------------------------*/
+    
+    
+    .contact-info{
+        position: absolute;
+        text-align: left;
+        background:rgba(255, 255, 255, 0.6);
+        
+    }
+
+
+   
 
   
 
@@ -305,7 +307,6 @@ width: 100%;
 
 
 
-    /* ------------------------------- END OF HEADER/NAV ------------------------------------*/
     h3{
         text-align: left;
     }
@@ -334,6 +335,7 @@ width: 100%;
         margin-bottom: 3rem;
     }
 
+    /* ------------------------------- END OF HEADER/NAV ------------------------------------*/
     .contact-info{
         position: absolute;
         text-align: left;
