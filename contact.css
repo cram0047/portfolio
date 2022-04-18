@@ -57,6 +57,15 @@ p, h1, h2,h3, h4, h5, h6, label{
     font-family: Arial, Helvetica, sans-serif
 }
 
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background: #C2C1C1;
+    margin-top: 2rem;
+    padding: 2rem;
+}
 
 
  /*---------------------------- FORM -----------------------------*/
@@ -105,21 +114,49 @@ width: 100%;
     background:rgba(255, 255, 255, 0.6);
 }
 
-
+.current{
+    background: #662D91;
+    color: white;
+}
 
 /*-------------------------------------------------------------------- MOBILE MEDIA QUERY -------------------------------------------------------------------------*/
 
 @media screen and (min-width: 375px){
     
+
+    .navcontainer{
+        text-align: center;
+    }
+
+    .logo img{
+        width: 8rem;
+    
+    }
+    .navbar{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        display: block;
+        
+
+ 
+     }
+
+     nav ul li a{
+        display: block;
+        text-align: center;
+        margin-bottom: 3rem;
+
+    }
+
+    
+    /*------------------------- NAV DONE ---------------------------------------*/
     h3{
         text-align: center;
     }
     
-    nav ul li {
-        display: block;
-        text-align: center;
-        margin-bottom: 3rem;
-    }
+    
     .contact-info{
         position: absolute;
         text-align: left;
@@ -160,16 +197,45 @@ width: 100%;
 
 @media screen and (min-width: 700px){
     
+    .navcontainer{
+        text-align: center;
+    }
+
+    .logo img{
+        width: 8rem;
+    
+    }
+    .navbar{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
+        display: block;
+       
+     }
+
+     nav ul li a{
+        display: block;
+        text-align: center;
+        margin-bottom: 3rem;
+
+    }
+
+    
+
+    /*------------------------- NAV DONE ---------------------------------------*/
+
+
+    /* ------------------------------- END OF HEADER/NAV ------------------------------------*/
+
+
+
     h3{
         text-align: left;
     }
     
-    nav ul li {
-        display: inline;
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-    h1{
+    
+    h2{
         font-size: 2rem;
         text-align: center;
         margin-bottom: 1rem;
@@ -177,6 +243,7 @@ width: 100%;
     
     h3{
         font-size: 1.5rem;
+        margin-left: 2rem;
     }
     
     h4{
@@ -197,8 +264,33 @@ width: 100%;
 
 @media screen and (min-width: 1000px){
     
-   
+    .navcontainer{
+        text-align: center;
+    }
 
+
+    .navbar{
+       text-align: center;
+       margin-top: 2rem;
+       margin-bottom: 5rem;
+       font-size: 1.5rem;
+       display: inline;
+
+    }
+
+    ul li a{
+        margin: 2rem;
+        display: inline-block;
+
+    }
+  
+    .logo img{
+        width: 8rem;
+    }
+
+
+
+    /* ------------------------------- END OF HEADER/NAV ------------------------------------*/
     h3{
         text-align: left;
     }
