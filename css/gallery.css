@@ -87,6 +87,10 @@ footer{
     background: #662D91;
     color: white;
 }
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /*-------------------------------------------------------------------- MOBILE MEDIA QUERY -------------------------------------------------------------------------*/
@@ -145,11 +149,14 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8 , 1fr);
+                background: #F5F4F8;
+
     }
 
     
     .images-gallery img{
         width: 90%;
+        margin-top: 2rem;
     }
 
 
@@ -273,7 +280,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 0.8fr 1fr 1fr;
-        background: #D8D8D8;
+        background: #F5F4F8;
     }
 
     .images-gallery img{

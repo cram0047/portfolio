@@ -81,11 +81,17 @@ footer{
     width: 100%;
 }
 
+
+
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .current{
     background: #662D91;
     color: white;
 }
-
 /*-------------------------------------------------------------------- MOBILE MEDIA QUERY -------------------------------------------------------------------------*/
 
 @media screen and (min-width: 375px){

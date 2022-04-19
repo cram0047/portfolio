@@ -96,6 +96,16 @@ button{
     position: relative;
 }
 
+button:hover{
+    background: #27AAE1;
+    color: black;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
 /*-------------------------------------------------------------------- MOBILE MEDIA QUERY -------------------------------------------------------------------------*/
 
 @media screen and (min-width: 375px){

@@ -81,6 +81,10 @@ footer{
     width: 100%;
 }
 
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
  /*---------------------------- FORM -----------------------------*/
  .form-name{
     margin: 1em;
