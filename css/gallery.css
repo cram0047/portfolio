@@ -65,6 +65,7 @@ p{
 h2{
     color: #27AAE1;
     margin: 8rem;
+    margin-top: 5rem;
 }
 
 h3{
@@ -263,7 +264,6 @@ ul li a{
     h2{
         font-size: 3rem;
         text-align: center;
-        margin: 2rem;
     }
     
     h3{
