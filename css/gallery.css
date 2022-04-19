@@ -64,11 +64,11 @@ p{
 
 h2{
     color: #27AAE1;
+    margin: 8rem;
 }
 
 h3{
     color: #662D91;
-    margin: 1.2rem;
 }
 
 .navbar{
@@ -88,13 +88,6 @@ footer{
     color: white;
 }
 
-button{
-    background: #662D91;
-    color: white;
-    padding: 1rem;
-    font-size: 2rem;
-    position: relative;
-}
 
 /*-------------------------------------------------------------------- MOBILE MEDIA QUERY -------------------------------------------------------------------------*/
 
@@ -113,126 +106,105 @@ button{
         margin-bottom: 2rem;
         font-size: 1.2rem;
         display: block;
+        
+
+ 
      }
 
      nav ul li a{
         display: block;
         text-align: center;
         margin-bottom: 3rem;
+
     }
 
      h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: center;
         margin-bottom: 1rem;
     }
 
     h3{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     h4{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
-
     .container{
         width: 100%;
+
     }
     
     h3{
         text-align: center;
     }
 
-   .banner-img-btn img{
-       width: 100%;
-   }
 
-   /*---------------Images below--------------------*/
-
-   .images-grid img{
-    width: 90%;
-   }
-
-   .images-grid{
-       display: grid;
-       grid-template-columns: repeat(6, 1fr);
-       grid-template-rows: .9fr 1fr;
-
+    .images-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8 , 1fr);
     }
+
     
-    .img-1{
-        grid-column: 1 /3;
+    .images-gallery img{
+        width: 90%;
+    }
+
+
+    .img1{
+        grid-column: 1 / 3;
         grid-row: 1 / 2;
         text-align: center;
 
     }
 
-    .img-2{
-        grid-column: 3 / 5;
-        grid-row: 1 / 2;
-        text-align: center;
-    }
-
-    .img-3{
-        grid-column: 5 / 7;
-        grid-row: 1 / 2;
-        text-align: center;
-
-    }
-
-    .img-4{
-        grid-column: 1 /4;
+    .img2{
+        grid-column: 1 / 3;
         grid-row: 2 / 3;
         text-align: center;
 
     }
 
-    .img-5{
-        grid-column: 4 / 7;
-        grid-row: 2 / 3;
+
+    .img3{
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
         text-align: center;
 
     }
-
-   
-
-
-   /*---------------Testimonials below--------------------*/
-
-   .testimonials{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 8rem;
-   }
-
-   .test-title{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2; 
-   }
-
-   .test-1{
-       grid-column: 1 / 2;
-       grid-row: 2 / 3;
-       text-align: center;
-       margin: 1.5rem;
-   }
-
-   .test-2{
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    text-align: center;
-    margin: 1.5rem;
-
-    }
-
-    .test-3{
-        grid-column: 1 / 2;
+    .img4{
+        grid-column: 1 / 3;
         grid-row: 4 / 5;
         text-align: center;
-        margin: 1.5rem;
 
     }
+
+    .img5{
+        grid-column: 1 / 3;
+        grid-row: 5 / 6;
+        text-align: center;
+
+    }
+
+    .img6{
+        grid-column: 1 / 3;
+        grid-row: 6 / 7;
+        text-align: center;
+
+    }
+    .img7{
+        grid-column: 1 / 3;
+        grid-row: 7 / 8;
+        text-align: center;
+
+    }
+    .img8{
+        grid-column: 1 / 3;
+        grid-row: 8 / 9;
+        text-align: center;
+
 
 }
 
@@ -241,6 +213,7 @@ button{
 
 
 @media screen and (min-width: 700px){
+
     h2{
         font-size: 1.8rem;
         text-align: center;
@@ -254,9 +227,7 @@ button{
     h4{
         font-size: 1.2rem;
     }
-    .banner-img-btn img{
-        width: 100%;
-    }
+
 }
 
 
@@ -297,52 +268,92 @@ button{
     h4{
         font-size: 1.7rem;
     }
-    .banner-img-btn img{
-        width: 100%;
+    
+    .images-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 0.8fr 1fr 1fr;
+        background: #D8D8D8;
+    }
+
+    .images-gallery img{
+        margin-top: 2rem;
     }
 
 
-
-    .testimonials{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-       }
-    
-       .test-title{
+    .img1{
         grid-column: 1 / 4;
-        grid-row: 1 / 2; 
+        grid-row: 1 / 2;
+        text-align: center;
 
-       }
-    
-       .test-1{
-           grid-column: 1 / 2;
-           grid-row: 2 / 3;
-           text-align: center;
-           margin-left: 2rem;
-           margin-right: 2rem;
+    }
 
-       }
-    
-       .test-2{
-        grid-column: 2 / 3;
+    .img2{
+        grid-column: 4 / 7;
+        grid-row: 1 / 2;
+        text-align: center;
+
+    }
+
+
+    .img3{
+        grid-column: 1 / 3;
         grid-row: 2 / 3;
         text-align: center;
-        margin-left: 2rem;
-        margin-right: 2rem;
+    }
 
-        }
-    
-        .test-3{
-            grid-column: 3 / 4;
-            grid-row: 2 / 3;
-            text-align: center;
-            margin-left: 2rem;
-            margin-right: 2rem;
+    .img3 img{
+        width: 350px;
 
-        }
+    }
+
+    .img4{
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+        text-align: center;
+    }
+
+    .img4 img{
+        width: 350px;
+
+    }
+
+    .img5{
+        grid-column:5 / 7;
+        grid-row: 2 / 3;
+        text-align: center;
+        
+    }
+    .img5 img{
+        width: 350px;
+    }
+
+    .img6{
+        grid-column: 1 / 7;
+        grid-row: 3/ 4;
+        text-align: center;
+
+    }
+
+    .img6 img{
+        width: 600px;
+        margin: 0;
+
+    }
+    .img7{
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+        text-align: center;
+
+    }
+
+    .img8{
+        grid-column: 4 / 7;
+        grid-row: 4 / 5;
+        text-align: center;
+    }
 
 
-}
+}}
 
     
